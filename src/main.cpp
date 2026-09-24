@@ -136,7 +136,7 @@ void soundUhOh()
 
 void soundSiren()
 {
-    for (int i = 0; i < 2; i++)
+    for (int i = 0; i <= 5; i++)
     {
         for (int freq = 500; freq <= 1200; freq += 30)
         {
